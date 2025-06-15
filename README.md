@@ -68,6 +68,7 @@ Ensures high availability and automatic backups
 Enables scalability based on demand
 
 ✅ Advantages
+
 Easy setup and maintenance
 
 Pay-as-you-go pricing
@@ -77,6 +78,7 @@ Global accessibility
 Built-in security and compliance options
 
 ⚠️ Disadvantages
+
 Internet dependency
 
 Vendor lock-in risks
