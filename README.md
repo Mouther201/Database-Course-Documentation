@@ -26,13 +26,16 @@ Comparison: Flat File Systems vs. Relational Databases
 🤝 Data Sharing – Centralized access for various applications
 
 3. 👥 Roles in a Database System
-Role	Responsibilities
-System Analyst	Gathers business requirements, defines system scope and specifications
-Database Designer	Designs schema, tables, and relationships based on requirements
-Database Developer	Implements database logic (stored procedures, triggers, queries)
-Database Administrator (DBA)	Maintains performance, handles security, backup, and recovery tasks
-Application Developer	Integrates applications with the database using APIs and backend logic
-BI Developer	Creates dashboards, reports, and queries to support business decision-making
+
+| Role                             | Responsibilities                                                             |
+| -------------------------------- | ---------------------------------------------------------------------------- |
+| **System Analyst**               | Gathers business requirements, defines system scope and specifications       |
+| **Database Designer**            | Designs schema, tables, and relationships based on requirements              |
+| **Database Developer**           | Implements database logic (stored procedures, triggers, queries)             |
+| **Database Administrator (DBA)** | Maintains performance, handles security, backup, and recovery tasks          |
+| **Application Developer**        | Integrates applications with the database using APIs and backend logic       |
+| **BI Developer**                 | Creates dashboards, reports, and queries to support business decision-making |
+
 
 4. 🔄 Types of Databases
 📘 Relational vs. Non-Relational
@@ -53,6 +56,7 @@ BI Developer	Creates dashboards, reports, and queries to support business decisi
 
 
 5. ☁️ Cloud Storage & Databases
+
 What is Cloud Storage?
 Cloud storage provides remote, scalable, and redundant data storage over the internet, typically offered by providers like AWS, Google Cloud, or Azure.
 
