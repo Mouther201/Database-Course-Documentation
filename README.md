@@ -36,10 +36,12 @@ BI Developer	Creates dashboards, reports, and queries to support business decisi
 
 4. 🔄 Types of Databases
 📘 Relational vs. Non-Relational
+
 | Type               | Description                                                   | Examples           | Use Cases                         |
 | ------------------ | ------------------------------------------------------------- | ------------------ | --------------------------------- |
 | **Relational**     | Structured, table-based, uses SQL                             | MySQL, PostgreSQL  | Banking, e-commerce, ERP          |
 | **Non-Relational** | Schema-less, flexible data structures (JSON, key-value, etc.) | MongoDB, Cassandra | Social media, IoT, real-time apps |
+
 
 
 🗃️ Centralized vs. Distributed vs. Cloud
