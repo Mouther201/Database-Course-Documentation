@@ -36,15 +36,19 @@ BI Developer	Creates dashboards, reports, and queries to support business decisi
 
 4. 🔄 Types of Databases
 📘 Relational vs. Non-Relational
-Type	Description	Examples	Use Cases
-Relational	Structured, table-based, uses SQL	MySQL, PostgreSQL	Banking, e-commerce, ERP
-Non-Relational	Schema-less, flexible data structures (JSON, key-value, etc.)	MongoDB, Cassandra	Social media, IoT, real-time apps
+| Type               | Description                                                   | Examples           | Use Cases                         |
+| ------------------ | ------------------------------------------------------------- | ------------------ | --------------------------------- |
+| **Relational**     | Structured, table-based, uses SQL                             | MySQL, PostgreSQL  | Banking, e-commerce, ERP          |
+| **Non-Relational** | Schema-less, flexible data structures (JSON, key-value, etc.) | MongoDB, Cassandra | Social media, IoT, real-time apps |
+
 
 🗃️ Centralized vs. Distributed vs. Cloud
-Type	Description	Example Use Cases
-Centralized	Single database stored on one location/server	Local business inventory systems
-Distributed	Data stored across multiple machines (nodes)	Telecom, airline reservation systems
-Cloud	Hosted and managed by cloud providers	SaaS apps, scalable e-commerce platforms
+| Type            | Description                                   | Example Use Cases                        |
+| --------------- | --------------------------------------------- | ---------------------------------------- |
+| **Centralized** | Single database stored on one location/server | Local business inventory systems         |
+| **Distributed** | Data stored across multiple machines (nodes)  | Telecom, airline reservation systems     |
+| **Cloud**       | Hosted and managed by cloud providers         | SaaS apps, scalable e-commerce platforms |
+
 
 5. ☁️ Cloud Storage & Databases
 What is Cloud Storage?
