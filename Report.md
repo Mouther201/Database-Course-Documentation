@@ -8,6 +8,7 @@ Comparison: Flat File Systems vs. Relational Databases
 | **Drawbacks**       | Difficult to scale, update, and query efficiently | Complex setup but highly efficient for large datasets |
 
 2. 🧠 DBMS Advantages – Mind Map
+
 ![alt text](image.png)
 
 
