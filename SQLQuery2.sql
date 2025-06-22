@@ -1,3 +1,4 @@
+USE TaskDatabase
 INSERT INTO employee (SSN, FNAME, LNAME, GENDER, BIRTHDATE, SUPERSSN, DNUM)
 VALUES ('111223333', 'Mouther', 'Alhashmi', 'M', '1999-06-10', NULL, NULL);
 
