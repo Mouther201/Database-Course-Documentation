@@ -1,0 +1,57 @@
+INSERT INTO employee (SSN, FNAME, LNAME, GENDER, BIRTHDATE, SUPERSSN, DNUM)
+VALUES ('111223333', 'Mouther', 'Alhashmi', 'M', '1999-06-10', NULL, NULL);
+
+
+INSERT INTO department (DNUM, DNAME, SSN, MHDATE)
+VALUES (1, 'Research and Development', '111223333', '2015-01-01');
+
+
+UPDATE employee SET DNUM = 1 WHERE SSN = '111223333';
+
+
+
+INSERT INTO employee (SSN, FNAME, LNAME, GENDER, BIRTHDATE, SUPERSSN, DNUM)
+VALUES 
+('222334455', 'Ahmed', 'Almaimani', 'M', '1990-02-20', '111223333', 1),
+('333445555', 'Fatma', 'Alsalhi', 'F', '1998-08-12', '111223333', 1);
+
+
+
+INSERT INTO employee (SSN, FNAME, LNAME, GENDER, BIRTHDATE, SUPERSSN, DNUM)
+VALUES 
+('222334444', 'Yousuf', 'Altamami', 'M', '1990-02-20', '111223333', 1),
+('333445555', 'Saleh', 'Albalushi', 'M', '2001-08-12', '111223333', 1);
+
+
+INSERT INTO dependent (Name, SSN, GENDER, BIRTHDATE)
+VALUES 
+('Mouther Alhashmi', '111223333', 'M', '1999-06-10'),
+('Yousuf Altamami', '222334444', 'M', '1990-02-20');
+
+
+
+DELETE FROM dependent
+WHERE Name = 'Yousuf Altamami';
+
+INSERT INTO DEARTMENTLOC (LOCATION, DNUM)
+VALUES 
+('HQ Building A', 1);
+
+
+INSERT INTO PROJECT (PNUMBER, PNAME, LOCATION, CITY, DNUM)
+VALUES 
+(101, 'AI Chatbot', 'HQ Building A', 'Muscat', 1),
+(102, 'Cybersecurity Audit', 'HQ Building A', 'Muscat', 1);
+
+
+INSERT INTO WORKON (SSN, PNUMBER, WORKINGHOUR)
+VALUES 
+('111223333', 101, 30),
+('222334444', 101, 25),
+('333445555', 102, 40);
+
+
+UPDATE WORKON
+SET WORKINGHOUR = 35
+WHERE SSN = '333445555' AND PNUMBER = 102;
+
