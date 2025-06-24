@@ -1,0 +1,41 @@
+1. What is the difference between GROUP BY and ORDER BY?
+GROUP BY groups rows based on column values to perform aggregate functions.
+
+ORDER BY sorts the result set in ascending (ASC) or descending (DESC) order.
+
+GROUP BY changes how data is grouped, ORDER BY changes how data is displayed.
+
+2. Why do we use HAVING instead of WHERE when filtering aggregate results?
+WHERE filters rows before aggregation (raw data).
+
+HAVING filters groups after aggregation (aggregated data).
+
+
+3. What are common beginner mistakes when writing aggregation queries?
+Using WHERE instead of HAVING for aggregates.
+
+Forgetting to include all non-aggregated columns in the GROUP BY.
+
+Misplacing ORDER BY before GROUP BY in logic or misunderstanding their order.
+
+4. When would you use COUNT(DISTINCT ...), AVG(...), and SUM(...) together?
+When you need different types of insights in one report:
+
+COUNT(DISTINCT customer_id) – number of unique customers.
+
+AVG(order_value) – average value per order.
+
+SUM(order_value) – total revenue.
+
+Example use case: A sales dashboard by region or product category.
+
+5. How does GROUP BY affect query performance, and how can indexes help?
+GROUP BY can be computationally expensive on large datasets.
+
+Performance improves if:
+
+There's an index on the GROUP BY columns.
+
+Data is already sorted on those columns (less work for the engine).
+
+Use covering indexes (including both grouping and filtering columns) for best performance.
